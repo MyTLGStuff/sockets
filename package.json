@@ -1,0 +1,30 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyTLGStuff/sockets.git"
+  },
+  "author": "Leonard Box",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyTLGStuff/sockets/issues"
+  },
+  "homepage": "https://github.com/MyTLGStuff/sockets#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
